@@ -1,0 +1,16 @@
+PODS:
+  - CSBaseController (0.1.0)
+
+DEPENDENCIES:
+  - CSBaseController (from `../`)
+
+EXTERNAL SOURCES:
+  CSBaseController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CSBaseController: 918ecbd224125dd860db3fb046ba1688eb867f2c
+
+PODFILE CHECKSUM: ffce03e98603bae80d1e1e5a5044c01b22b03fc0
+
+COCOAPODS: 1.11.3
