@@ -7,49 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E0A94A0C9A0EDAFC74009143B6C57AB /* UIBarButtonItem+Action.m in Sources */ = {isa = PBXBuildFile; fileRef = 32AB493ABD11A840F310536A9031ADB6 /* UIBarButtonItem+Action.m */; };
-		256187CE900ADA12520B2FDE7BEFAF70 /* CSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 525309E4A6551EFE23A0503280DA5631 /* CSNavigationController.m */; };
-		2D27BB37E6AD8C357A6FE7A020CA020A /* UINavigationController+JZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BD9415E44BC5A6A34274BF82871A2C /* UINavigationController+JZExtension.m */; };
-		2D396DF4A93FD0A73502EE1BFA490139 /* _JZValue.h in Headers */ = {isa = PBXBuildFile; fileRef = AE7473D67EDF5C7CCB11A3D22279223E /* _JZValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		32CEFF785194959C794D5C4A5A38AC2F /* Pods-CSBaseController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07959F44ACFE8C75969C277E0F440F5D /* Pods-CSBaseController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		362320F3C679C29DB92B6159FF305815 /* UINavigationController+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC2F91CD89268CDF8A24446FBCC2B95 /* UINavigationController+Extensions.m */; };
-		5DE8E237B3481A80988D3300FCA0D227 /* UIViewController+JZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D5785D1503A8554120CE6B065ADCFF /* UIViewController+JZExtension.m */; };
-		5EB73C716F03AB67CE2D6E5C827CF525 /* CSBaseController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FD2038706307D3497F9130DFBBD8F5 /* CSBaseController-dummy.m */; };
-		6CDBCF29A8400812B327A980400DEAED /* JZNavigationExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1595E0A8C5D3638B0D818248BF3B69 /* JZNavigationExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D98A2E19DF932F402BBC6EF6E279EAC /* CSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD67BAF6EB40CE23AE3428B5BAA3E810 /* CSBaseViewController.m */; };
-		700E39CE91DE96317AB64889A65ACA7A /* UIViewController+JZExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = A85D74D1F550C6D6E1360026B264D358 /* UIViewController+JZExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		716B9052FCA99CCC31E39AFA5CD316C5 /* UINavigationBar+JZPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 24C1CEA583F1B50AAD2ADAEA7173586E /* UINavigationBar+JZPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73941BF6439E5B5517A9771DB49FD66F /* UINavigationController+JZPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0E3EA02378D19A7149DE97DAEB3987 /* UINavigationController+JZPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AD32D7FB3F7B2C6F64BC522376A9ECB /* CSBaseController.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844AA7B24C683457D020D25D0AA18F23 /* CSBaseController.xcassets */; };
+		4180444D71D5ECD0CBEB5D7EF12A9929 /* CSBaseViewControllerImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFF6ED31D4500D6271C74D8E8795227 /* CSBaseViewControllerImageHelper.m */; };
+		424FDAD8235D74BAAD28687C682C5189 /* UINavigationController+JZPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D892D09480DB2311D861048FF74D016 /* UINavigationController+JZPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		531AA11BB39E21EAF48BDF8E41581737 /* _JZValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A468D35FA64602FAAF7FC066D315AE0 /* _JZValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5461E46EE063B40E4A9895BDD9BF7542 /* CSBaseViewControllerImageHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 088536DAB127DF4DC922843FC366BB19 /* CSBaseViewControllerImageHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54A2C9FE18C2C9E648AA12ECD9FDEDE9 /* UIBarButtonItem+Action.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CAD5DDE4477968DDF42D69C9D7398C /* UIBarButtonItem+Action.m */; };
+		5733254F726123109A47E02C6B705641 /* UIViewController+JZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B551011E857BB8D57B4A575835128536 /* UIViewController+JZExtension.m */; };
+		58B5A8F0AC7061B6BABC8137ECE0206A /* JZNavigationExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CDAF72BA22694387ABFF16BFB90F1AE /* JZNavigationExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B024A4C87A0491B9F0C20375D4AE9D8 /* CSBaseController-CSBaseController in Resources */ = {isa = PBXBuildFile; fileRef = A1B29FDC4A193C407F5C9E834EA61590 /* CSBaseController-CSBaseController */; };
+		6BC7CF75220EF0E235D040CEBD901B86 /* UIViewController+NavBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 43AA5E1695CEB073BAA584DAB886BE48 /* UIViewController+NavBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71BFE211D16A2EFE2D10DFD62C2FDED7 /* CSBaseController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9F587467D94A1A7E878E76907DA60E /* CSBaseController-dummy.m */; };
+		73612818E6030E61F01B72004BB1FD6F /* _JZNavigationDelegating.h in Headers */ = {isa = PBXBuildFile; fileRef = 66436A279CC261AE1B595D0E8AFB2B87 /* _JZNavigationDelegating.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		79390441A789A087124B3B4FE5D06CBD /* Pods-CSBaseController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD2E6AEBE2471C5BB0A9215285CC0B3 /* Pods-CSBaseController_Example-dummy.m */; };
-		9D70885A81174EB1BB0C3F1C205D4959 /* UIViewController+NavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B4618C60AD38FC315BFB8D9699D669 /* UIViewController+NavBar.m */; };
+		7E35DB018885A8EE95C625C0B534208D /* CSNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = E5C0D1B29D8CACEB894DA03A88DE9441 /* CSNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E76A3AABC11DC4C2CF710FC499AE70E /* UINavigationController+JZExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = AE4D6782E2E708C8157E1F7892016045 /* UINavigationController+JZExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		808F96DFC1E7D24733094FA074F78619 /* _JZValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C44985374342511368AED26605E694 /* _JZValue.m */; };
+		873CEBDA984D39FF0BC73E570461CFB4 /* UIBarButtonItem+Action.h in Headers */ = {isa = PBXBuildFile; fileRef = AC13632DF90B6F956948B093BD78CEFC /* UIBarButtonItem+Action.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93B2FC6194CAAB57B8A39F6F5ACA2864 /* UIViewController+NavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7D004AF13961B174549010CA73550A /* UIViewController+NavBar.m */; };
+		96A3952BD1A5806C58E29CFBC4962F2E /* UINavigationController+JZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 17AF89675CEEE1FF2E3CBEC9F46B8AE9 /* UINavigationController+JZExtension.m */; };
+		99F349A544DF1B340695DE0B54D0EEA9 /* CSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C62C98E63DA71331E071ED655099C988 /* CSNavigationController.m */; };
+		A12C7D4262B28B13F83FC6BEE7872D7A /* UINavigationController+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 784AD1625CEC8878C4395EB1EE3F75B1 /* UINavigationController+Extensions.m */; };
+		A6A7064F021C3DD0BF9779282D61C6A1 /* UINavigationBar+JZPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE56900D04ED7EA498DB2542C2ADDE3F /* UINavigationBar+JZPrivate.m */; };
 		AA74E9F5664083683CEC5640902BF7F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		AB4E2EFE03E98D04A8E03F910B5BACE4 /* CSNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 535058F55A1518B2B5096DCECDE12844 /* CSNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFC1B7817D744609F1FFAF88AC25DF01 /* _JZNavigationDelegating.m in Sources */ = {isa = PBXBuildFile; fileRef = B801D345591A0E705ED6DEC0581455B9 /* _JZNavigationDelegating.m */; };
 		B413ADCB3595F65E51F0BEB1B36E0831 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C08D3F871B7D188D52C04B15EDA5BCEA /* UIViewController+JZExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 93337D81912D32A49741BCD629A7F2B0 /* UIViewController+JZExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C199D52E9F44B298141F28095F9AEF85 /* Pods-CSBaseController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B87090D5BD6587D0D7766B00B996294 /* Pods-CSBaseController_Tests-dummy.m */; };
-		C4BAB631E9806A61856D19D84F5F1543 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		C6B865A0688BE52F2CB21B179B0E1D6A /* UINavigationController+JZExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 38DDD618BFD0E416D94092C188E79045 /* UINavigationController+JZExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C7A74F0ACBF4B558D80B302B84FB3A68 /* _JZValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B38D4BFE5529DB329E7F8A079FA789 /* _JZValue.m */; };
-		C7F07F69DCD84EB5E63F523116C300BE /* CSBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CCDD6C3746B34C217436F0A210A2C32 /* CSBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CBF4F58E636EF610D8E3092C26EAE2E6 /* UIBarButtonItem+Action.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BE22AEBBFF2211B137FFFC7CCFAE680 /* UIBarButtonItem+Action.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CFC79B7CC0A5D15B6ACB4DFA520FA5B5 /* Pods-CSBaseController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF0FE8291B513EE1889926A5856F2D69 /* Pods-CSBaseController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D13B8501E02D394B5268767E0F9298C3 /* UINavigationBar+JZPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37444E59D9646FA3C2D75C7957B6831A /* UINavigationBar+JZPrivate.m */; };
-		DBA9E14593A55741C7680579F6408AE3 /* _JZNavigationDelegating.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF1BD32F23F7F10E2693EC85C355EBF /* _JZNavigationDelegating.m */; };
-		DF61074980357EC0D55AA3C7E5C1F7A8 /* UINavigationController+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = C0F6FECC3BAA524B7484D3A83FEE5B68 /* UINavigationController+Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ECAA3362CA952922CC4C9AA25A7896F6 /* CSBaseController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA2EE3FCE66060D5E029A7E5F8D7F282 /* CSBaseController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F0A45BACE37491C8DF779768DF2C2357 /* UINavigationController+JZPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD86A6B79D2154F37CEED56E5248FC05 /* UINavigationController+JZPrivate.m */; };
-		F6AA70818997CC4D59B4154415317AE0 /* UIViewController+NavBar.h in Headers */ = {isa = PBXBuildFile; fileRef = A61E11FFBE49DCD932AD84CD421CB77B /* UIViewController+NavBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF031D8D41C54E040FD9C96B9CD9E30D /* _JZNavigationDelegating.h in Headers */ = {isa = PBXBuildFile; fileRef = 14D4FAA5D4C2806EB5A0994A1198B9AB /* _JZNavigationDelegating.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA1059458857E7818BD02FC0C5449A19 /* CSBaseController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C9E220FA1747352C3C550E14CD8426B /* CSBaseController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBE0A12F38ED558A3F8D8A74374AB584 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E0DA5318BFF40CEF4F62D9FD7B7779E3 /* CSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F605FAE54EADE17839EAC9EAA1B9E5 /* CSBaseViewController.m */; };
+		E3BFAE2C7F865F443D69DCE70D21C68B /* UINavigationBar+JZPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = BFFA30B3BA4B49B7658344045C40180E /* UINavigationBar+JZPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F317A17DC19A01FEE0762498D0A80149 /* CSBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 42447499C649BFC8689A7B22BC8D72D5 /* CSBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB0858EEE7B58B24CBBF5C83992F6645 /* UINavigationController+JZPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 503FE1016BFE048465BC890C3193F2C1 /* UINavigationController+JZPrivate.m */; };
+		FC127C83A19D105B292BFDFA03AE6F76 /* UINavigationController+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = A9523504C0553EB4D517CC7932889542 /* UINavigationController+Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		097F558D863837D1339A035EE7C30EA4 /* PBXContainerItemProxy */ = {
+		1295FAD5B55E396F2F7B5C32ED7E7F17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBBC1A56943445B3BF979B301D9A2F2A;
+			remoteInfo = "CSBaseController-CSBaseController";
+		};
+		16F72E69B2F910F69A389B2595BE14F3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E483B65BD2AC1B448AF799ECCFEFDE09;
 			remoteInfo = "Pods-CSBaseController_Example";
 		};
-		3E732130E7E14B4641CC8ADC1387B9DA /* PBXContainerItemProxy */ = {
+		1EF78CEB63ADB6B30540146D72940D47 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -59,69 +70,73 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01C1F953C475DB0D8F94ED580BD73C33 /* CSBaseController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CSBaseController-Info.plist"; sourceTree = "<group>"; };
-		0290ACA202A38A683B30F9E11BA3A4C6 /* CSBaseController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CSBaseController.debug.xcconfig; sourceTree = "<group>"; };
 		07959F44ACFE8C75969C277E0F440F5D /* Pods-CSBaseController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CSBaseController_Example-umbrella.h"; sourceTree = "<group>"; };
+		088536DAB127DF4DC922843FC366BB19 /* CSBaseViewControllerImageHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSBaseViewControllerImageHelper.h; path = CSBaseController/Classes/CSBaseViewControllerImageHelper.h; sourceTree = "<group>"; };
 		0ADA4C9F74242BE59F00B2C73B5E36CA /* Pods-CSBaseController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CSBaseController_Example-frameworks.sh"; sourceTree = "<group>"; };
-		0E971B61B8A22C140EBFAA2CEAC6E6BC /* CSBaseController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CSBaseController.release.xcconfig; sourceTree = "<group>"; };
-		14D4FAA5D4C2806EB5A0994A1198B9AB /* _JZNavigationDelegating.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = _JZNavigationDelegating.h; sourceTree = "<group>"; };
+		17AF89675CEEE1FF2E3CBEC9F46B8AE9 /* UINavigationController+JZExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+JZExtension.m"; sourceTree = "<group>"; };
+		18B9C774DC55EC2F1C2BA904D7E8DB9C /* CSBaseController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CSBaseController-prefix.pch"; sourceTree = "<group>"; };
 		1AE6E8DC20D58A0527A3125E3206DA27 /* Pods-CSBaseController_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CSBaseController_Example"; path = Pods_CSBaseController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B7D004AF13961B174549010CA73550A /* UIViewController+NavBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NavBar.m"; sourceTree = "<group>"; };
 		1CF0C66ECB9AED4C85FB7C3A0743BEF0 /* Pods-CSBaseController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CSBaseController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		24C1CEA583F1B50AAD2ADAEA7173586E /* UINavigationBar+JZPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+JZPrivate.h"; sourceTree = "<group>"; };
-		2D0E3EA02378D19A7149DE97DAEB3987 /* UINavigationController+JZPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+JZPrivate.h"; sourceTree = "<group>"; };
-		2F22B499012EBE99133CCDD01A750949 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		31F3B2D2ADBEDCD3F6024704C1BC488A /* CSBaseController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CSBaseController-prefix.pch"; sourceTree = "<group>"; };
-		31FD2038706307D3497F9130DFBBD8F5 /* CSBaseController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CSBaseController-dummy.m"; sourceTree = "<group>"; };
-		32AB493ABD11A840F310536A9031ADB6 /* UIBarButtonItem+Action.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Action.m"; sourceTree = "<group>"; };
-		37444E59D9646FA3C2D75C7957B6831A /* UINavigationBar+JZPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+JZPrivate.m"; sourceTree = "<group>"; };
-		38DDD618BFD0E416D94092C188E79045 /* UINavigationController+JZExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+JZExtension.h"; sourceTree = "<group>"; };
-		4B1595E0A8C5D3638B0D818248BF3B69 /* JZNavigationExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JZNavigationExtension.h; sourceTree = "<group>"; };
-		4CCDD6C3746B34C217436F0A210A2C32 /* CSBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSBaseViewController.h; path = CSBaseController/Classes/CSBaseViewController.h; sourceTree = "<group>"; };
-		525309E4A6551EFE23A0503280DA5631 /* CSNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSNavigationController.m; path = CSBaseController/Classes/CSNavigationController.m; sourceTree = "<group>"; };
-		535058F55A1518B2B5096DCECDE12844 /* CSNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSNavigationController.h; path = CSBaseController/Classes/CSNavigationController.h; sourceTree = "<group>"; };
+		3D892D09480DB2311D861048FF74D016 /* UINavigationController+JZPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+JZPrivate.h"; sourceTree = "<group>"; };
+		3F9F587467D94A1A7E878E76907DA60E /* CSBaseController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CSBaseController-dummy.m"; sourceTree = "<group>"; };
+		42447499C649BFC8689A7B22BC8D72D5 /* CSBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSBaseViewController.h; path = CSBaseController/Classes/CSBaseViewController.h; sourceTree = "<group>"; };
+		43AA5E1695CEB073BAA584DAB886BE48 /* UIViewController+NavBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NavBar.h"; sourceTree = "<group>"; };
+		43C44985374342511368AED26605E694 /* _JZValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = _JZValue.m; sourceTree = "<group>"; };
+		4A468D35FA64602FAAF7FC066D315AE0 /* _JZValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = _JZValue.h; sourceTree = "<group>"; };
+		4DFF6ED31D4500D6271C74D8E8795227 /* CSBaseViewControllerImageHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSBaseViewControllerImageHelper.m; path = CSBaseController/Classes/CSBaseViewControllerImageHelper.m; sourceTree = "<group>"; };
+		503FE1016BFE048465BC890C3193F2C1 /* UINavigationController+JZPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+JZPrivate.m"; sourceTree = "<group>"; };
 		54AE5D1960211BE9D4791DD12AB886FF /* Pods-CSBaseController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CSBaseController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		579C6A4EDA79365D9886655517FB8047 /* Pods-CSBaseController_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CSBaseController_Example-Info.plist"; sourceTree = "<group>"; };
-		59B38D4BFE5529DB329E7F8A079FA789 /* _JZValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = _JZValue.m; sourceTree = "<group>"; };
+		59CAD5DDE4477968DDF42D69C9D7398C /* UIBarButtonItem+Action.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Action.m"; sourceTree = "<group>"; };
 		5A269CD22B700EA8C272CD4E00C7E909 /* Pods-CSBaseController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CSBaseController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		5B87090D5BD6587D0D7766B00B996294 /* Pods-CSBaseController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CSBaseController_Tests-dummy.m"; sourceTree = "<group>"; };
+		66436A279CC261AE1B595D0E8AFB2B87 /* _JZNavigationDelegating.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = _JZNavigationDelegating.h; sourceTree = "<group>"; };
 		69274132584A5D8FD57DF98A8D40F599 /* Pods-CSBaseController_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CSBaseController_Tests"; path = Pods_CSBaseController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6BE22AEBBFF2211B137FFFC7CCFAE680 /* UIBarButtonItem+Action.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Action.h"; sourceTree = "<group>"; };
 		6DD2E6AEBE2471C5BB0A9215285CC0B3 /* Pods-CSBaseController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CSBaseController_Example-dummy.m"; sourceTree = "<group>"; };
 		6F6DFD466D886FCB20806D8BD8A2FD67 /* Pods-CSBaseController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CSBaseController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		73B4618C60AD38FC315BFB8D9699D669 /* UIViewController+NavBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NavBar.m"; sourceTree = "<group>"; };
+		784AD1625CEC8878C4395EB1EE3F75B1 /* UINavigationController+Extensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Extensions.m"; sourceTree = "<group>"; };
 		7E7BBF92EC253403BD4D6223AFCCE936 /* CSBaseController */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CSBaseController; path = CSBaseController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F1D8B3C80D951ECB801FEA31C556629 /* CSBaseController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CSBaseController.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		95D5785D1503A8554120CE6B065ADCFF /* UIViewController+JZExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JZExtension.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		844AA7B24C683457D020D25D0AA18F23 /* CSBaseController.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = CSBaseController.xcassets; path = CSBaseController/Assets/CSBaseController.xcassets; sourceTree = "<group>"; };
+		8C9E220FA1747352C3C550E14CD8426B /* CSBaseController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CSBaseController-umbrella.h"; sourceTree = "<group>"; };
+		8DA3A013678A4992F01DA4D870F22CD0 /* ResourceBundle-CSBaseController-CSBaseController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CSBaseController-CSBaseController-Info.plist"; sourceTree = "<group>"; };
+		91A37A3DCCED783AE3C9944CBC3B0060 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		93337D81912D32A49741BCD629A7F2B0 /* UIViewController+JZExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JZExtension.h"; sourceTree = "<group>"; };
+		97A22B00B858833183291F811846883A /* CSBaseController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CSBaseController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9CDAF72BA22694387ABFF16BFB90F1AE /* JZNavigationExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JZNavigationExtension.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A09D5DCFE088746AC8E650EBFEE0B476 /* Pods-CSBaseController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CSBaseController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A61E11FFBE49DCD932AD84CD421CB77B /* UIViewController+NavBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NavBar.h"; sourceTree = "<group>"; };
-		A7BD9415E44BC5A6A34274BF82871A2C /* UINavigationController+JZExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+JZExtension.m"; sourceTree = "<group>"; };
-		A85D74D1F550C6D6E1360026B264D358 /* UIViewController+JZExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JZExtension.h"; sourceTree = "<group>"; };
-		AD86A6B79D2154F37CEED56E5248FC05 /* UINavigationController+JZPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+JZPrivate.m"; sourceTree = "<group>"; };
+		A1B29FDC4A193C407F5C9E834EA61590 /* CSBaseController-CSBaseController */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "CSBaseController-CSBaseController"; path = CSBaseController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9523504C0553EB4D517CC7932889542 /* UINavigationController+Extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Extensions.h"; sourceTree = "<group>"; };
+		AC13632DF90B6F956948B093BD78CEFC /* UIBarButtonItem+Action.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Action.h"; sourceTree = "<group>"; };
 		AD8753DA60C6533C463C22D7FC614B73 /* Pods-CSBaseController_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CSBaseController_Tests-Info.plist"; sourceTree = "<group>"; };
-		AE7473D67EDF5C7CCB11A3D22279223E /* _JZValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = _JZValue.h; sourceTree = "<group>"; };
-		C0F6FECC3BAA524B7484D3A83FEE5B68 /* UINavigationController+Extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Extensions.h"; sourceTree = "<group>"; };
+		AE4D6782E2E708C8157E1F7892016045 /* UINavigationController+JZExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+JZExtension.h"; sourceTree = "<group>"; };
+		B551011E857BB8D57B4A575835128536 /* UIViewController+JZExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JZExtension.m"; sourceTree = "<group>"; };
+		B801D345591A0E705ED6DEC0581455B9 /* _JZNavigationDelegating.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = _JZNavigationDelegating.m; sourceTree = "<group>"; };
+		BFFA30B3BA4B49B7658344045C40180E /* UINavigationBar+JZPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+JZPrivate.h"; sourceTree = "<group>"; };
+		C62C98E63DA71331E071ED655099C988 /* CSNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSNavigationController.m; path = CSBaseController/Classes/CSNavigationController.m; sourceTree = "<group>"; };
 		CBCD96C05A0F2B924A5C370582EE097B /* Pods-CSBaseController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CSBaseController_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CD67BAF6EB40CE23AE3428B5BAA3E810 /* CSBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSBaseViewController.m; path = CSBaseController/Classes/CSBaseViewController.m; sourceTree = "<group>"; };
 		CD838E6F52100E2AA1931149DE64823F /* Pods-CSBaseController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CSBaseController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CF232DAAB9A4D1A807EBB570E7892066 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		CF28D78591290E1C5BBB4A68C72349F0 /* Pods-CSBaseController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CSBaseController_Tests.modulemap"; sourceTree = "<group>"; };
-		D6681B61858BF448F0F754F38CD673A8 /* CSBaseController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CSBaseController.modulemap; sourceTree = "<group>"; };
+		D517885581E225697D5AE6E2ACD4F516 /* CSBaseController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CSBaseController.release.xcconfig; sourceTree = "<group>"; };
+		D52C966D5056CD591E1F4FEFC3E1B8D1 /* CSBaseController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CSBaseController.modulemap; sourceTree = "<group>"; };
 		D8315F10243F39A3E3379F35208C3EFA /* Pods-CSBaseController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CSBaseController_Example.modulemap"; sourceTree = "<group>"; };
-		DA2EE3FCE66060D5E029A7E5F8D7F282 /* CSBaseController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CSBaseController-umbrella.h"; sourceTree = "<group>"; };
-		DEC2F91CD89268CDF8A24446FBCC2B95 /* UINavigationController+Extensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Extensions.m"; sourceTree = "<group>"; };
-		EBF1BD32F23F7F10E2693EC85C355EBF /* _JZNavigationDelegating.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = _JZNavigationDelegating.m; sourceTree = "<group>"; };
+		E495262BD1390532A374D07E4E8325C4 /* CSBaseController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CSBaseController-Info.plist"; sourceTree = "<group>"; };
+		E5C0D1B29D8CACEB894DA03A88DE9441 /* CSNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSNavigationController.h; path = CSBaseController/Classes/CSNavigationController.h; sourceTree = "<group>"; };
+		E8F605FAE54EADE17839EAC9EAA1B9E5 /* CSBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSBaseViewController.m; path = CSBaseController/Classes/CSBaseViewController.m; sourceTree = "<group>"; };
 		EF0FE8291B513EE1889926A5856F2D69 /* Pods-CSBaseController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CSBaseController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		EF254D330BC23B44955AF307341DCF3D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		F591A6C828A0BA4CBB2B71D2F84B1A8B /* Pods-CSBaseController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CSBaseController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F92276C1A0A40017F5D8ACE7C2414271 /* CSBaseController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CSBaseController.debug.xcconfig; sourceTree = "<group>"; };
+		FE56900D04ED7EA498DB2542C2ADDE3F /* UINavigationBar+JZPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+JZPrivate.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		02F4CAA8F19413A1F4704A5DAF760167 /* Frameworks */ = {
+		00C121AF615EEBC29A8C2F1546B8893C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4BAB631E9806A61856D19D84F5F1543 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,76 +156,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F2472AB05C9865391B7F1CD3CD8B5AC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBE0A12F38ED558A3F8D8A74374AB584 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		157B5CEFD297A4B6C08CA5B0892892DD /* Private */ = {
+		2ADB362C50C76298BF385EC844C5E563 /* JZNavigationExtension */ = {
 			isa = PBXGroup;
 			children = (
-				14D4FAA5D4C2806EB5A0994A1198B9AB /* _JZNavigationDelegating.h */,
-				EBF1BD32F23F7F10E2693EC85C355EBF /* _JZNavigationDelegating.m */,
-				AE7473D67EDF5C7CCB11A3D22279223E /* _JZValue.h */,
-				59B38D4BFE5529DB329E7F8A079FA789 /* _JZValue.m */,
-				24C1CEA583F1B50AAD2ADAEA7173586E /* UINavigationBar+JZPrivate.h */,
-				37444E59D9646FA3C2D75C7957B6831A /* UINavigationBar+JZPrivate.m */,
-				2D0E3EA02378D19A7149DE97DAEB3987 /* UINavigationController+JZPrivate.h */,
-				AD86A6B79D2154F37CEED56E5248FC05 /* UINavigationController+JZPrivate.m */,
+				9CDAF72BA22694387ABFF16BFB90F1AE /* JZNavigationExtension.h */,
+				AE4D6782E2E708C8157E1F7892016045 /* UINavigationController+JZExtension.h */,
+				17AF89675CEEE1FF2E3CBEC9F46B8AE9 /* UINavigationController+JZExtension.m */,
+				93337D81912D32A49741BCD629A7F2B0 /* UIViewController+JZExtension.h */,
+				B551011E857BB8D57B4A575835128536 /* UIViewController+JZExtension.m */,
+				E3FB223391EB603608CBD807353AD3AB /* Private */,
 			);
-			path = Private;
-			sourceTree = "<group>";
-		};
-		4036EA267AD0788EFBA6920E61A52DA2 /* CSBaseController */ = {
-			isa = PBXGroup;
-			children = (
-				4CCDD6C3746B34C217436F0A210A2C32 /* CSBaseViewController.h */,
-				CD67BAF6EB40CE23AE3428B5BAA3E810 /* CSBaseViewController.m */,
-				535058F55A1518B2B5096DCECDE12844 /* CSNavigationController.h */,
-				525309E4A6551EFE23A0503280DA5631 /* CSNavigationController.m */,
-				83ED491F7E19E14211B430AF342488E0 /* Pod */,
-				443C148CB21D0016C6847079B7093EA7 /* Support Files */,
-				AFC7DFDD126170B7C1DFB84F4F8537A4 /* UIBarButtonItem */,
-				84F12CED5928FF9090FE9287F86303CA /* UINavigationController */,
-				45A36111E2FFB3C7C9D7E1C92C51197D /* UIViewController */,
-			);
-			name = CSBaseController;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		443C148CB21D0016C6847079B7093EA7 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D6681B61858BF448F0F754F38CD673A8 /* CSBaseController.modulemap */,
-				31FD2038706307D3497F9130DFBBD8F5 /* CSBaseController-dummy.m */,
-				01C1F953C475DB0D8F94ED580BD73C33 /* CSBaseController-Info.plist */,
-				31F3B2D2ADBEDCD3F6024704C1BC488A /* CSBaseController-prefix.pch */,
-				DA2EE3FCE66060D5E029A7E5F8D7F282 /* CSBaseController-umbrella.h */,
-				0290ACA202A38A683B30F9E11BA3A4C6 /* CSBaseController.debug.xcconfig */,
-				0E971B61B8A22C140EBFAA2CEAC6E6BC /* CSBaseController.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CSBaseController";
-			sourceTree = "<group>";
-		};
-		45A36111E2FFB3C7C9D7E1C92C51197D /* UIViewController */ = {
-			isa = PBXGroup;
-			children = (
-				A61E11FFBE49DCD932AD84CD421CB77B /* UIViewController+NavBar.h */,
-				73B4618C60AD38FC315BFB8D9699D669 /* UIViewController+NavBar.m */,
-			);
-			name = UIViewController;
-			path = CSBaseController/Classes/UIViewController;
-			sourceTree = "<group>";
-		};
-		4F06F9A498B90A898324F2209EC36CCF /* JZNavigationExtension */ = {
-			isa = PBXGroup;
-			children = (
-				4B1595E0A8C5D3638B0D818248BF3B69 /* JZNavigationExtension.h */,
-				38DDD618BFD0E416D94092C188E79045 /* UINavigationController+JZExtension.h */,
-				A7BD9415E44BC5A6A34274BF82871A2C /* UINavigationController+JZExtension.m */,
-				A85D74D1F550C6D6E1360026B264D358 /* UIViewController+JZExtension.h */,
-				95D5785D1503A8554120CE6B065ADCFF /* UIViewController+JZExtension.m */,
-				157B5CEFD297A4B6C08CA5B0892892DD /* Private */,
-			);
+			name = JZNavigationExtension;
 			path = JZNavigationExtension;
 			sourceTree = "<group>";
 		};
@@ -238,52 +205,44 @@
 			path = "Target Support Files/Pods-CSBaseController_Tests";
 			sourceTree = "<group>";
 		};
-		83ED491F7E19E14211B430AF342488E0 /* Pod */ = {
+		826BA5F993B5091EB6633A1DB83AF638 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8F1D8B3C80D951ECB801FEA31C556629 /* CSBaseController.podspec */,
-				CF232DAAB9A4D1A807EBB570E7892066 /* LICENSE */,
-				2F22B499012EBE99133CCDD01A750949 /* README.md */,
+				7E7BBF92EC253403BD4D6223AFCCE936 /* CSBaseController */,
+				A1B29FDC4A193C407F5C9E834EA61590 /* CSBaseController-CSBaseController */,
+				1AE6E8DC20D58A0527A3125E3206DA27 /* Pods-CSBaseController_Example */,
+				69274132584A5D8FD57DF98A8D40F599 /* Pods-CSBaseController_Tests */,
 			);
-			name = Pod;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		84F12CED5928FF9090FE9287F86303CA /* UINavigationController */ = {
+		8A108864D977738685E2A31B0C842C9D /* UIBarButtonItem */ = {
 			isa = PBXGroup;
 			children = (
-				C0F6FECC3BAA524B7484D3A83FEE5B68 /* UINavigationController+Extensions.h */,
-				DEC2F91CD89268CDF8A24446FBCC2B95 /* UINavigationController+Extensions.m */,
-				4F06F9A498B90A898324F2209EC36CCF /* JZNavigationExtension */,
-			);
-			name = UINavigationController;
-			path = CSBaseController/Classes/UINavigationController;
-			sourceTree = "<group>";
-		};
-		AFC7DFDD126170B7C1DFB84F4F8537A4 /* UIBarButtonItem */ = {
-			isa = PBXGroup;
-			children = (
-				6BE22AEBBFF2211B137FFFC7CCFAE680 /* UIBarButtonItem+Action.h */,
-				32AB493ABD11A840F310536A9031ADB6 /* UIBarButtonItem+Action.m */,
+				AC13632DF90B6F956948B093BD78CEFC /* UIBarButtonItem+Action.h */,
+				59CAD5DDE4477968DDF42D69C9D7398C /* UIBarButtonItem+Action.m */,
 			);
 			name = UIBarButtonItem;
 			path = CSBaseController/Classes/UIBarButtonItem;
 			sourceTree = "<group>";
 		};
-		C73C5BB90A45F1F05FB77FD93CE08C87 /* Development Pods */ = {
+		9383A438F63193B91F56F027C47B6CE7 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				4036EA267AD0788EFBA6920E61A52DA2 /* CSBaseController */,
+				97A22B00B858833183291F811846883A /* CSBaseController.podspec */,
+				EF254D330BC23B44955AF307341DCF3D /* LICENSE */,
+				91A37A3DCCED783AE3C9944CBC3B0060 /* README.md */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				C73C5BB90A45F1F05FB77FD93CE08C87 /* Development Pods */,
+				D9D8986458B302232353594EC7FA1930 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				FF63132FBBD1287E0465CDCAF0F715EA /* Products */,
+				826BA5F993B5091EB6633A1DB83AF638 /* Products */,
 				D4541106B1B49952F0EF7D893B8EAC07 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -305,6 +264,77 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		D7953E8CEC32602F5F2AE44112C32732 /* UINavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				A9523504C0553EB4D517CC7932889542 /* UINavigationController+Extensions.h */,
+				784AD1625CEC8878C4395EB1EE3F75B1 /* UINavigationController+Extensions.m */,
+				2ADB362C50C76298BF385EC844C5E563 /* JZNavigationExtension */,
+			);
+			name = UINavigationController;
+			path = CSBaseController/Classes/UINavigationController;
+			sourceTree = "<group>";
+		};
+		D9AE3D9EE35E717C303D8B353D6D56D4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D52C966D5056CD591E1F4FEFC3E1B8D1 /* CSBaseController.modulemap */,
+				3F9F587467D94A1A7E878E76907DA60E /* CSBaseController-dummy.m */,
+				E495262BD1390532A374D07E4E8325C4 /* CSBaseController-Info.plist */,
+				18B9C774DC55EC2F1C2BA904D7E8DB9C /* CSBaseController-prefix.pch */,
+				8C9E220FA1747352C3C550E14CD8426B /* CSBaseController-umbrella.h */,
+				F92276C1A0A40017F5D8ACE7C2414271 /* CSBaseController.debug.xcconfig */,
+				D517885581E225697D5AE6E2ACD4F516 /* CSBaseController.release.xcconfig */,
+				8DA3A013678A4992F01DA4D870F22CD0 /* ResourceBundle-CSBaseController-CSBaseController-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CSBaseController";
+			sourceTree = "<group>";
+		};
+		D9D8986458B302232353594EC7FA1930 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4D05FEDE3CA4BFE095C81058AAFD963 /* CSBaseController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E3FB223391EB603608CBD807353AD3AB /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				66436A279CC261AE1B595D0E8AFB2B87 /* _JZNavigationDelegating.h */,
+				B801D345591A0E705ED6DEC0581455B9 /* _JZNavigationDelegating.m */,
+				4A468D35FA64602FAAF7FC066D315AE0 /* _JZValue.h */,
+				43C44985374342511368AED26605E694 /* _JZValue.m */,
+				BFFA30B3BA4B49B7658344045C40180E /* UINavigationBar+JZPrivate.h */,
+				FE56900D04ED7EA498DB2542C2ADDE3F /* UINavigationBar+JZPrivate.m */,
+				3D892D09480DB2311D861048FF74D016 /* UINavigationController+JZPrivate.h */,
+				503FE1016BFE048465BC890C3193F2C1 /* UINavigationController+JZPrivate.m */,
+			);
+			name = Private;
+			path = Private;
+			sourceTree = "<group>";
+		};
+		E4D05FEDE3CA4BFE095C81058AAFD963 /* CSBaseController */ = {
+			isa = PBXGroup;
+			children = (
+				844AA7B24C683457D020D25D0AA18F23 /* CSBaseController.xcassets */,
+				42447499C649BFC8689A7B22BC8D72D5 /* CSBaseViewController.h */,
+				E8F605FAE54EADE17839EAC9EAA1B9E5 /* CSBaseViewController.m */,
+				088536DAB127DF4DC922843FC366BB19 /* CSBaseViewControllerImageHelper.h */,
+				4DFF6ED31D4500D6271C74D8E8795227 /* CSBaseViewControllerImageHelper.m */,
+				E5C0D1B29D8CACEB894DA03A88DE9441 /* CSNavigationController.h */,
+				C62C98E63DA71331E071ED655099C988 /* CSNavigationController.m */,
+				9383A438F63193B91F56F027C47B6CE7 /* Pod */,
+				D9AE3D9EE35E717C303D8B353D6D56D4 /* Support Files */,
+				8A108864D977738685E2A31B0C842C9D /* UIBarButtonItem */,
+				D7953E8CEC32602F5F2AE44112C32732 /* UINavigationController */,
+				FFA7E39104A613DD594935918D1D00AF /* UIViewController */,
+			);
+			name = CSBaseController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		E55C6ECA47F7CA11FB533D17C5014BD1 /* Pods-CSBaseController_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -322,14 +352,14 @@
 			path = "Target Support Files/Pods-CSBaseController_Example";
 			sourceTree = "<group>";
 		};
-		FF63132FBBD1287E0465CDCAF0F715EA /* Products */ = {
+		FFA7E39104A613DD594935918D1D00AF /* UIViewController */ = {
 			isa = PBXGroup;
 			children = (
-				7E7BBF92EC253403BD4D6223AFCCE936 /* CSBaseController */,
-				1AE6E8DC20D58A0527A3125E3206DA27 /* Pods-CSBaseController_Example */,
-				69274132584A5D8FD57DF98A8D40F599 /* Pods-CSBaseController_Tests */,
+				43AA5E1695CEB073BAA584DAB886BE48 /* UIViewController+NavBar.h */,
+				1B7D004AF13961B174549010CA73550A /* UIViewController+NavBar.m */,
 			);
-			name = Products;
+			name = UIViewController;
+			path = CSBaseController/Classes/UIViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -343,23 +373,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9AB35EBF8D11A4D3BF7F7E7346C9F2F3 /* Headers */ = {
+		495A33EA814CE3C9170405584CE29C92 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF031D8D41C54E040FD9C96B9CD9E30D /* _JZNavigationDelegating.h in Headers */,
-				2D396DF4A93FD0A73502EE1BFA490139 /* _JZValue.h in Headers */,
-				ECAA3362CA952922CC4C9AA25A7896F6 /* CSBaseController-umbrella.h in Headers */,
-				C7F07F69DCD84EB5E63F523116C300BE /* CSBaseViewController.h in Headers */,
-				AB4E2EFE03E98D04A8E03F910B5BACE4 /* CSNavigationController.h in Headers */,
-				6CDBCF29A8400812B327A980400DEAED /* JZNavigationExtension.h in Headers */,
-				CBF4F58E636EF610D8E3092C26EAE2E6 /* UIBarButtonItem+Action.h in Headers */,
-				716B9052FCA99CCC31E39AFA5CD316C5 /* UINavigationBar+JZPrivate.h in Headers */,
-				DF61074980357EC0D55AA3C7E5C1F7A8 /* UINavigationController+Extensions.h in Headers */,
-				C6B865A0688BE52F2CB21B179B0E1D6A /* UINavigationController+JZExtension.h in Headers */,
-				73941BF6439E5B5517A9771DB49FD66F /* UINavigationController+JZPrivate.h in Headers */,
-				700E39CE91DE96317AB64889A65ACA7A /* UIViewController+JZExtension.h in Headers */,
-				F6AA70818997CC4D59B4154415317AE0 /* UIViewController+NavBar.h in Headers */,
+				73612818E6030E61F01B72004BB1FD6F /* _JZNavigationDelegating.h in Headers */,
+				531AA11BB39E21EAF48BDF8E41581737 /* _JZValue.h in Headers */,
+				DA1059458857E7818BD02FC0C5449A19 /* CSBaseController-umbrella.h in Headers */,
+				F317A17DC19A01FEE0762498D0A80149 /* CSBaseViewController.h in Headers */,
+				5461E46EE063B40E4A9895BDD9BF7542 /* CSBaseViewControllerImageHelper.h in Headers */,
+				7E35DB018885A8EE95C625C0B534208D /* CSNavigationController.h in Headers */,
+				58B5A8F0AC7061B6BABC8137ECE0206A /* JZNavigationExtension.h in Headers */,
+				873CEBDA984D39FF0BC73E570461CFB4 /* UIBarButtonItem+Action.h in Headers */,
+				E3BFAE2C7F865F443D69DCE70D21C68B /* UINavigationBar+JZPrivate.h in Headers */,
+				FC127C83A19D105B292BFDFA03AE6F76 /* UINavigationController+Extensions.h in Headers */,
+				7E76A3AABC11DC4C2CF710FC499AE70E /* UINavigationController+JZExtension.h in Headers */,
+				424FDAD8235D74BAAD28687C682C5189 /* UINavigationController+JZPrivate.h in Headers */,
+				C08D3F871B7D188D52C04B15EDA5BCEA /* UIViewController+JZExtension.h in Headers */,
+				6BC7CF75220EF0E235D040CEBD901B86 /* UIViewController+NavBar.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,16 +407,17 @@
 /* Begin PBXNativeTarget section */
 		5DDA99444E603CFEDA7D14CDC3422D30 /* CSBaseController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F1A60229FEDE0326230187EFE7FB2D58 /* Build configuration list for PBXNativeTarget "CSBaseController" */;
+			buildConfigurationList = 7A17CE312B7C8E99AAE468A37A51B9EA /* Build configuration list for PBXNativeTarget "CSBaseController" */;
 			buildPhases = (
-				9AB35EBF8D11A4D3BF7F7E7346C9F2F3 /* Headers */,
-				2D84674CD54312AEF1F4EB6273F4877D /* Sources */,
-				02F4CAA8F19413A1F4704A5DAF760167 /* Frameworks */,
-				64A6348814C4D7F0F015C8BDE2C44FD1 /* Resources */,
+				495A33EA814CE3C9170405584CE29C92 /* Headers */,
+				7A4FE0403682B2B564EAF277AE410B47 /* Sources */,
+				F2472AB05C9865391B7F1CD3CD8B5AC7 /* Frameworks */,
+				A2545A2011C36983D93B41815B461C89 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				BD8189F0A5EBC002F7A4B8F9C690ED23 /* PBXTargetDependency */,
 			);
 			name = CSBaseController;
 			productName = CSBaseController;
@@ -404,12 +436,29 @@
 			buildRules = (
 			);
 			dependencies = (
-				11C22B1BCE8D42A113D186DEB5EF97F2 /* PBXTargetDependency */,
+				8AABACDA8668288C299E101EC098DBA1 /* PBXTargetDependency */,
 			);
 			name = "Pods-CSBaseController_Tests";
 			productName = Pods_CSBaseController_Tests;
 			productReference = 69274132584A5D8FD57DF98A8D40F599 /* Pods-CSBaseController_Tests */;
 			productType = "com.apple.product-type.framework";
+		};
+		BBBC1A56943445B3BF979B301D9A2F2A /* CSBaseController-CSBaseController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F254FFE163E569B6384B4EC44940C8F /* Build configuration list for PBXNativeTarget "CSBaseController-CSBaseController" */;
+			buildPhases = (
+				6064A765A00CD86A9DF230BC8091A50F /* Sources */,
+				00C121AF615EEBC29A8C2F1546B8893C /* Frameworks */,
+				E8560B60F6B85E9F373A6C0D0EC0C111 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CSBaseController-CSBaseController";
+			productName = CSBaseController;
+			productReference = A1B29FDC4A193C407F5C9E834EA61590 /* CSBaseController-CSBaseController */;
+			productType = "com.apple.product-type.bundle";
 		};
 		E483B65BD2AC1B448AF799ECCFEFDE09 /* Pods-CSBaseController_Example */ = {
 			isa = PBXNativeTarget;
@@ -423,7 +472,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				244B96982BACBAEFB8D73FA88DCEF459 /* PBXTargetDependency */,
+				A8F43B5338A328948DD4D8987C9F20D5 /* PBXTargetDependency */,
 			);
 			name = "Pods-CSBaseController_Example";
 			productName = Pods_CSBaseController_Example;
@@ -448,11 +497,12 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = FF63132FBBD1287E0465CDCAF0F715EA /* Products */;
+			productRefGroup = 826BA5F993B5091EB6633A1DB83AF638 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				5DDA99444E603CFEDA7D14CDC3422D30 /* CSBaseController */,
+				BBBC1A56943445B3BF979B301D9A2F2A /* CSBaseController-CSBaseController */,
 				E483B65BD2AC1B448AF799ECCFEFDE09 /* Pods-CSBaseController_Example */,
 				B37E2CD62872975DB7E7E66736E5A450 /* Pods-CSBaseController_Tests */,
 			);
@@ -460,13 +510,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		64A6348814C4D7F0F015C8BDE2C44FD1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7853291A470DB6859F877C8C3194FCA0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -481,25 +524,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A2545A2011C36983D93B41815B461C89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B024A4C87A0491B9F0C20375D4AE9D8 /* CSBaseController-CSBaseController in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8560B60F6B85E9F373A6C0D0EC0C111 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AD32D7FB3F7B2C6F64BC522376A9ECB /* CSBaseController.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2D84674CD54312AEF1F4EB6273F4877D /* Sources */ = {
+		6064A765A00CD86A9DF230BC8091A50F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBA9E14593A55741C7680579F6408AE3 /* _JZNavigationDelegating.m in Sources */,
-				C7A74F0ACBF4B558D80B302B84FB3A68 /* _JZValue.m in Sources */,
-				5EB73C716F03AB67CE2D6E5C827CF525 /* CSBaseController-dummy.m in Sources */,
-				6D98A2E19DF932F402BBC6EF6E279EAC /* CSBaseViewController.m in Sources */,
-				256187CE900ADA12520B2FDE7BEFAF70 /* CSNavigationController.m in Sources */,
-				1E0A94A0C9A0EDAFC74009143B6C57AB /* UIBarButtonItem+Action.m in Sources */,
-				D13B8501E02D394B5268767E0F9298C3 /* UINavigationBar+JZPrivate.m in Sources */,
-				362320F3C679C29DB92B6159FF305815 /* UINavigationController+Extensions.m in Sources */,
-				2D27BB37E6AD8C357A6FE7A020CA020A /* UINavigationController+JZExtension.m in Sources */,
-				F0A45BACE37491C8DF779768DF2C2357 /* UINavigationController+JZPrivate.m in Sources */,
-				5DE8E237B3481A80988D3300FCA0D227 /* UIViewController+JZExtension.m in Sources */,
-				9D70885A81174EB1BB0C3F1C205D4959 /* UIViewController+NavBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A4FE0403682B2B564EAF277AE410B47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC1B7817D744609F1FFAF88AC25DF01 /* _JZNavigationDelegating.m in Sources */,
+				808F96DFC1E7D24733094FA074F78619 /* _JZValue.m in Sources */,
+				71BFE211D16A2EFE2D10DFD62C2FDED7 /* CSBaseController-dummy.m in Sources */,
+				E0DA5318BFF40CEF4F62D9FD7B7779E3 /* CSBaseViewController.m in Sources */,
+				4180444D71D5ECD0CBEB5D7EF12A9929 /* CSBaseViewControllerImageHelper.m in Sources */,
+				99F349A544DF1B340695DE0B54D0EEA9 /* CSNavigationController.m in Sources */,
+				54A2C9FE18C2C9E648AA12ECD9FDEDE9 /* UIBarButtonItem+Action.m in Sources */,
+				A6A7064F021C3DD0BF9779282D61C6A1 /* UINavigationBar+JZPrivate.m in Sources */,
+				A12C7D4262B28B13F83FC6BEE7872D7A /* UINavigationController+Extensions.m in Sources */,
+				96A3952BD1A5806C58E29CFBC4962F2E /* UINavigationController+JZExtension.m in Sources */,
+				FB0858EEE7B58B24CBBF5C83992F6645 /* UINavigationController+JZPrivate.m in Sources */,
+				5733254F726123109A47E02C6B705641 /* UIViewController+JZExtension.m in Sources */,
+				93B2FC6194CAAB57B8A39F6F5ACA2864 /* UIViewController+NavBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,24 +589,30 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		11C22B1BCE8D42A113D186DEB5EF97F2 /* PBXTargetDependency */ = {
+		8AABACDA8668288C299E101EC098DBA1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-CSBaseController_Example";
 			target = E483B65BD2AC1B448AF799ECCFEFDE09 /* Pods-CSBaseController_Example */;
-			targetProxy = 097F558D863837D1339A035EE7C30EA4 /* PBXContainerItemProxy */;
+			targetProxy = 16F72E69B2F910F69A389B2595BE14F3 /* PBXContainerItemProxy */;
 		};
-		244B96982BACBAEFB8D73FA88DCEF459 /* PBXTargetDependency */ = {
+		A8F43B5338A328948DD4D8987C9F20D5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CSBaseController;
 			target = 5DDA99444E603CFEDA7D14CDC3422D30 /* CSBaseController */;
-			targetProxy = 3E732130E7E14B4641CC8ADC1387B9DA /* PBXContainerItemProxy */;
+			targetProxy = 1EF78CEB63ADB6B30540146D72940D47 /* PBXContainerItemProxy */;
+		};
+		BD8189F0A5EBC002F7A4B8F9C690ED23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CSBaseController-CSBaseController";
+			target = BBBC1A56943445B3BF979B301D9A2F2A /* CSBaseController-CSBaseController */;
+			targetProxy = 1295FAD5B55E396F2F7B5C32ED7E7F17 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4E17D93793A0C5160FBEDAD12FC46F6E /* Release */ = {
+		1DF527C8DC3755517BF7A82F21F00B49 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E971B61B8A22C140EBFAA2CEAC6E6BC /* CSBaseController.release.xcconfig */;
+			baseConfigurationReference = D517885581E225697D5AE6E2ACD4F516 /* CSBaseController.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -568,37 +641,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		6153F8C64DFF6E36DF391C86E8843439 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0290ACA202A38A683B30F9E11BA3A4C6 /* CSBaseController.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CSBaseController/CSBaseController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CSBaseController/CSBaseController-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CSBaseController/CSBaseController.modulemap";
-				PRODUCT_MODULE_NAME = CSBaseController;
-				PRODUCT_NAME = CSBaseController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		6CF7D19FBCDEF9B62C31E66128B4E222 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -688,9 +730,42 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		825429DCDDFBD0C7A98B95F0F3B7FA4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F92276C1A0A40017F5D8ACE7C2414271 /* CSBaseController.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CSBaseController";
+				IBSC_MODULE = CSBaseController;
+				INFOPLIST_FILE = "Target Support Files/CSBaseController/ResourceBundle-CSBaseController-CSBaseController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = CSBaseController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		8CB595BAC0B4FBC532F861C0A5919661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D517885581E225697D5AE6E2ACD4F516 /* CSBaseController.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CSBaseController";
+				IBSC_MODULE = CSBaseController;
+				INFOPLIST_FILE = "Target Support Files/CSBaseController/ResourceBundle-CSBaseController-CSBaseController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = CSBaseController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -727,6 +802,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		CC8ACC91C03D89982B7B2CA954D4CCA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F92276C1A0A40017F5D8ACE7C2414271 /* CSBaseController.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CSBaseController/CSBaseController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CSBaseController/CSBaseController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CSBaseController/CSBaseController.modulemap";
+				PRODUCT_MODULE_NAME = CSBaseController;
+				PRODUCT_NAME = CSBaseController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -882,20 +988,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		6F254FFE163E569B6384B4EC44940C8F /* Build configuration list for PBXNativeTarget "CSBaseController-CSBaseController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				825429DCDDFBD0C7A98B95F0F3B7FA4B /* Debug */,
+				8CB595BAC0B4FBC532F861C0A5919661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A17CE312B7C8E99AAE468A37A51B9EA /* Build configuration list for PBXNativeTarget "CSBaseController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC8ACC91C03D89982B7B2CA954D4CCA5 /* Debug */,
+				1DF527C8DC3755517BF7A82F21F00B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E38B6B794B60AB3BE14887A492B06343 /* Build configuration list for PBXNativeTarget "Pods-CSBaseController_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6CF7D19FBCDEF9B62C31E66128B4E222 /* Debug */,
 				ADF2DC54F433C212B5BE3C6702EBEA7B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F1A60229FEDE0326230187EFE7FB2D58 /* Build configuration list for PBXNativeTarget "CSBaseController" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6153F8C64DFF6E36DF391C86E8843439 /* Debug */,
-				4E17D93793A0C5160FBEDAD12FC46F6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

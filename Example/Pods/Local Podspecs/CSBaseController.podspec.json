@@ -1,22 +1,27 @@
 {
   "name": "CSBaseController",
   "version": "0.1.0",
-  "summary": "A short description of CSBaseController.",
+  "summary": "UIViewController\\UINavigationController基类，提供导航栏显示隐藏功能。",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/624500136@qq.com/CSBaseController",
+  "homepage": "https://github.com/wangce520/",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "624500136@qq.com": "ce.wang@etocrm.com"
+    "王策": "cjxy_wce@163.com"
   },
   "source": {
-    "git": "https://github.com/624500136@qq.com/CSBaseController.git",
+    "git": "https://github.com/wangce520/CSBaseController.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "CSBaseController/Classes/**/*"
+  "source_files": "CSBaseController/Classes/**/*",
+  "resource_bundles": {
+    "CSBaseController": [
+      "CSBaseController/Assets/*"
+    ]
+  }
 }

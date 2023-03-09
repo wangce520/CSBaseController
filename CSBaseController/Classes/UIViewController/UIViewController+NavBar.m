@@ -9,6 +9,7 @@
 #import "UIViewController+NavBar.h"
 #import "UIBarButtonItem+Action.h"
 #import "JZNavigationExtension.h"
+#import "CSBaseViewControllerImageHelper.h"
 
 #define  NAVIGATION_BAR_BTNCOLOR [UIColor blackColor]
 
@@ -24,18 +25,12 @@ UIButton * __createNavBarButton(CGRect frame, NSString *title, NSString *imageNa
     }
     NSBundle *bundle = [NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:@"CSBaseKit" ofType:@"bundle"]];
     if (imageName) {
-        UIImage *image = [UIImage imageNamed:imageName inBundle:bundle compatibleWithTraitCollection:nil];
-        if (!image) {
-            image = [UIImage imageNamed:imageName];
-        }
+        UIImage *image = [CSBaseViewControllerImageHelper imgWithName:imageName];
         [button setImage:image forState:UIControlStateNormal];
         [button setImageEdgeInsets:UIEdgeInsetsMake(0, 0, 0, 0)];
     }
     if (imageHLName) {
-        UIImage *image = [UIImage imageNamed:imageHLName inBundle:bundle compatibleWithTraitCollection:nil];
-        if (!image) {
-            image = [UIImage imageNamed:imageHLName];
-        }
+        UIImage *image = [CSBaseViewControllerImageHelper imgWithName:imageHLName];
         [button setImage:image forState:UIControlStateHighlighted];
     }
     [button setContentHorizontalAlignment:UIControlContentHorizontalAlignmentLeft];

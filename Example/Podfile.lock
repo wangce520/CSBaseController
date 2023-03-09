@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CSBaseController: 918ecbd224125dd860db3fb046ba1688eb867f2c
+  CSBaseController: 01109035b34cb6ad0e1f13505c1bfe5beeed9042
 
 PODFILE CHECKSUM: ffce03e98603bae80d1e1e5a5044c01b22b03fc0
 

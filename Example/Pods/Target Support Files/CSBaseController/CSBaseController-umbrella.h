@@ -11,6 +11,7 @@
 #endif
 
 #import "CSBaseViewController.h"
+#import "CSBaseViewControllerImageHelper.h"
 #import "CSNavigationController.h"
 #import "UIBarButtonItem+Action.h"
 #import "JZNavigationExtension.h"
