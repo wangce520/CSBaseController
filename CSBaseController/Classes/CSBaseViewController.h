@@ -34,4 +34,7 @@
 /// 禁用手势返回（默认为NO）
 @property (nonatomic, assign) BOOL disablePopGesture;
 
+/// 设置导航栏的颜色
+- (void)setNavigationBarBackgroundColor:(UIColor *)backgroundColor titleColor:(UIColor *)titleColor;
+
 @end

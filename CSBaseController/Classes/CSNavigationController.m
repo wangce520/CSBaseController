@@ -45,31 +45,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    if (@available(iOS 13.0, *)) {
-        UINavigationBarAppearance * appearance = [[UINavigationBarAppearance alloc] init];
-        // 背景色
-        appearance.backgroundColor = UIColor.whiteColor;
-        // 去除导航栏阴影（如果不设置clear，导航栏底下会有一条阴影线）
-        appearance.shadowColor = [UIColor clearColor];
-        // 去掉半透明效果
-        appearance.backgroundEffect = nil;
-        appearance.titleTextAttributes = @{
-            NSFontAttributeName: [UIFont systemFontOfSize:18],
-            NSForegroundColorAttributeName: UIColor.whiteColor};
-        // 带scroll滑动的页面
-        self.navigationBar.scrollEdgeAppearance = appearance;
-        // 常规页面
-        self.navigationBar.standardAppearance = appearance;
-    }else{
-        [self.navigationBar setBackgroundImage:[self imageFromColor:[UIColor whiteColor]] forBarMetrics:UIBarMetricsDefault];
-        [self.navigationBar setShadowImage:[UIImage new]];
-        [self.navigationBar setTitleTextAttributes:@{
-            NSFontAttributeName: [UIFont systemFontOfSize:18],
-            NSForegroundColorAttributeName: UIColor.whiteColor }];
-        [self.navigationBar setTintColor:UIColor.blueColor];
-    }
 }
-
 
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated
 {
@@ -88,18 +64,7 @@
     }
 }
 
-- (UIImage *)imageFromColor:(UIColor *)color
-{
-    CGRect rect = CGRectMake(0.0f, 0.0f, 1.0f, 1.0f);
-    UIGraphicsBeginImageContext(rect.size);
-    CGContextRef context = UIGraphicsGetCurrentContext();
-    CGContextSetFillColorWithColor(context, [color CGColor]);
-    CGContextFillRect(context, rect);
-    UIImage *theImage = UIGraphicsGetImageFromCurrentImageContext();
-    UIGraphicsEndImageContext();
-    
-    return theImage;
-}
+
 
 @end
 

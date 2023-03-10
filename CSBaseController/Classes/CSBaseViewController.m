@@ -39,7 +39,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
     __weak typeof(self) weakself = self;
     [self.navigationController jz_setInteractivePopGestureRecognizerCompletion:^(UINavigationController *navigationController, BOOL finished) {
         if (finished) {
@@ -47,10 +46,37 @@
             [weakself gestureDidPop];
         }
     }];
-
     self.edgesForExtendedLayout = UIRectEdgeNone;
-
+    // 设置导航栏
+    [self setNavigationBarBackgroundColor:UIColor.whiteColor titleColor:UIColor.blackColor];
     [self addBackBarButton];
+}
+
+/// 设置导航栏的颜色
+- (void)setNavigationBarBackgroundColor:(UIColor *)backgroundColor titleColor:(UIColor *)titleColor{
+    if (@available(iOS 13.0, *)) {
+        UINavigationBarAppearance * appearance = [[UINavigationBarAppearance alloc] init];
+        // 背景色
+        appearance.backgroundColor = backgroundColor;
+        // 去除导航栏阴影（如果不设置clear，导航栏底下会有一条阴影线）
+        appearance.shadowColor = [UIColor clearColor];
+        // 去掉半透明效果
+        appearance.backgroundEffect = nil;
+        appearance.titleTextAttributes = @{
+            NSFontAttributeName: [UIFont systemFontOfSize:18],
+            NSForegroundColorAttributeName: titleColor};
+        // 带scroll滑动的页面
+        self.navigationController.navigationBar.scrollEdgeAppearance = appearance;
+        // 常规页面
+        self.navigationController.navigationBar.standardAppearance = appearance;
+    }else{
+        [self.navigationController.navigationBar setBackgroundImage:[self imageFromColor:backgroundColor] forBarMetrics:UIBarMetricsDefault];
+        [self.navigationController.navigationBar setShadowImage:[UIImage new]];
+        [self.navigationController.navigationBar setTitleTextAttributes:@{
+            NSFontAttributeName: [UIFont systemFontOfSize:18],
+            NSForegroundColorAttributeName: titleColor }];
+        [self.navigationController.navigationBar setTintColor:titleColor];
+    }
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -140,6 +166,19 @@
 /// iOS 13 之后, 禁用键盘三指手势, 避免限制输入框长度后,触发三指手势撤销崩溃 
 - (UIEditingInteractionConfiguration)editingInteractionConfiguration {
     return UIEditingInteractionConfigurationNone;
+}
+
+- (UIImage *)imageFromColor:(UIColor *)color
+{
+    CGRect rect = CGRectMake(0.0f, 0.0f, 1.0f, 1.0f);
+    UIGraphicsBeginImageContext(rect.size);
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    CGContextSetFillColorWithColor(context, [color CGColor]);
+    CGContextFillRect(context, rect);
+    UIImage *theImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    return theImage;
 }
 
 @end

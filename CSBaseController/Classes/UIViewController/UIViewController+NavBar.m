@@ -23,7 +23,6 @@ UIButton * __createNavBarButton(CGRect frame, NSString *title, NSString *imageNa
         [button setTitleColor:[UIColor blackColor] forState:UIControlStateHighlighted];
         [button.titleLabel setFont:[UIFont systemFontOfSize:14]];
     }
-    NSBundle *bundle = [NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:@"CSBaseKit" ofType:@"bundle"]];
     if (imageName) {
         UIImage *image = [CSBaseViewControllerImageHelper imgWithName:imageName];
         [button setImage:image forState:UIControlStateNormal];
